@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixsel - Digital Agency</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Fixsel</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="#contact" class="cta">Get a Quote</a>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Transforming Your Digital Presence</h1>
+            <p>Innovative Design Solutions for Modern Brands</p>
+            <a href="#services" class="cta">Our Services</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about-content">
+            <img src="images/about-image.jpg" alt="About Us">
+            <div class="about-text">
+                <h2>About Us</h2>
+                <p>We are a digital agency dedicated to transforming brands with creative design solutions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-grid">
+            <div class="service-item">
+                <img src="images/service-icon1.png" alt="Service 1">
+                <h3>Design</h3>
+                <p>Creative and modern design services to enhance your brand's visual identity.</p>
+            </div>
+            <div class="service-item">
+                <img src="images/service-icon2.png" alt="Service 2">
+                <h3>Development</h3>
+                <p>Innovative development solutions to build robust and scalable web applications.</p>
+            </div>
+            <!-- Add more services as needed -->
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Our Work</h2>
+        <div class="portfolio-gallery">
+            <!-- Add project images and descriptions -->
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial-item">
+            <p>"Fixsel transformed our brand with their exceptional design and development skills."</p>
+            <cite>- Client Name</cite>
+        </div>
+        <!-- Add more testimonials as needed -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="contact.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="contact-info">
+            <p>Email: contact@fixsel.com</p>
+            <p>Phone: +123 456 7890</p>
+            <div class="social-media">
+                <!-- Add social media links -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2024 Fixsel. All rights reserved.</p>
+    </footer>
+</body>
+</html>
