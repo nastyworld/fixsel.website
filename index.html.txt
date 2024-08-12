@@ -34,7 +34,7 @@
     <!-- About Section -->
     <section id="about">
         <div class="about-content">
-            <img src="images/about-image.jpg" alt="About Us">
+            <img src="about-image.jpg" alt="About Us">
             <div class="about-text">
                 <h2>About Us</h2>
                 <p>We are a digital agency dedicated to transforming brands with creative design solutions.</p>
@@ -47,12 +47,12 @@
         <h2>Our Services</h2>
         <div class="service-grid">
             <div class="service-item">
-                <img src="images/service-icon1.png" alt="Service 1">
+                <img src="service-icon1.png" alt="Service 1">
                 <h3>Design</h3>
                 <p>Creative and modern design services to enhance your brand's visual identity.</p>
             </div>
             <div class="service-item">
-                <img src="images/service-icon2.png" alt="Service 2">
+                <img src="service-icon2.png" alt="Service 2">
                 <h3>Development</h3>
                 <p>Innovative development solutions to build robust and scalable web applications.</p>
             </div>
